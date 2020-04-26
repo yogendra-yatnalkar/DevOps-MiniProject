@@ -14,4 +14,4 @@
 # $ docker run -it --rm -p 66:66 DevOps-MiniProject
 # ```
 
-# Open http://localhost:5000 and wait till the webpage is loaded.
+# Open http://localhost:66 and wait till the webpage is loaded.
