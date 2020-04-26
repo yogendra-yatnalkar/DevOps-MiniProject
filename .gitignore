@@ -21,10 +21,3 @@ instance/
 # Editors
 .vscode/
 .idea/
-
-# Custom data directory
-uploads/*
-models/*
-
-!uploads/README.md
-!models/README.md
