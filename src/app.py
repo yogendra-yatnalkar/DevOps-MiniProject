@@ -3,7 +3,6 @@ import sys
 
 # Flask
 from flask import Flask, redirect, url_for, request, render_template, Response, jsonify, redirect
-from util import *
 
 # Declare a flask app
 app = Flask(__name__)
@@ -21,7 +20,6 @@ def index():
 def predict():
     if request.method == 'POST':
         # Get the image from post request
-        img = base64_to_pil(request.json)
         ans_mode = "Flask is more important than model!! Dang!"
         return jsonify(result=str(ans_mode))
     return None
